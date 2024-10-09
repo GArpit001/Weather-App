@@ -75,7 +75,7 @@ const FullPage = () => {
 
             <div className='bg-[rgba(0,0,0,0.90)]  h-full w-[650px] backdrop'>
 
-                {/* <Sider /> */}
+                <Sider />
 
             </div>
 

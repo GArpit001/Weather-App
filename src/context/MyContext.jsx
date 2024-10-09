@@ -4,7 +4,7 @@ export const MyContext = createContext()
 
 const MyContextProvider = (props) => {
 
-    const [data, setData] = useState(null)
+    const [data, setData] = useState("Etawah")
     const [search, setSearch] = useState("Etawah")
     const [error, setError] = useState("")
 

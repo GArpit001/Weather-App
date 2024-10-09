@@ -7,6 +7,9 @@ import { MyContext } from '../context/MyContext'
 const FullPage = () => {
 
     const { search , data } = useContext(MyContext)
+    // const [name , setName] = useState()
+
+    console.log(data.name)
 
 
     let ss = JSON.parse(localStorage.getItem("data"))

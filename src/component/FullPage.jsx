@@ -6,7 +6,8 @@ import { MyContext } from '../context/MyContext'
 
 const FullPage = () => {
 
-    const { search } = useContext(MyContext)
+    const { search , data } = useContext(MyContext)
+
 
     let ss = JSON.parse(localStorage.getItem("data"))
     // console.log(ss)
@@ -47,7 +48,7 @@ const FullPage = () => {
 
                 <div className='text-center '>
                     <h1 className='text-5xl text-white'>
-                        {ss.name}
+                        {data.name}
                     </h1>
 
                 </div>
@@ -64,7 +65,7 @@ const FullPage = () => {
 
                     <div>
                         <h1 className='text-7xl'>
-                            {Math.round(ss.main.temp)}°C
+                            {Math.round(data.main.temp)}°C
                         </h1>
 
                     </div>

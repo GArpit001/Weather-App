@@ -47,7 +47,7 @@ const FullPage = () => {
 
                 <div className='text-center '>
                     <h1 className='text-5xl text-white'>
-                        {ss.name}
+                        {/* {ss.name} */}
                     </h1>
 
                 </div>
@@ -64,7 +64,7 @@ const FullPage = () => {
 
                     <div>
                         <h1 className='text-7xl'>
-                            {Math.round(ss.main.temp)}°C
+                            {/* {Math.round(ss.main.temp)}°C */}
                         </h1>
 
                     </div>
@@ -75,7 +75,7 @@ const FullPage = () => {
 
             <div className='bg-[rgba(0,0,0,0.90)]  h-full w-[650px] backdrop'>
 
-                <Sider />
+                {/* <Sider /> */}
 
             </div>
 

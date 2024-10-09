@@ -1,0 +1,10 @@
+body{
+  font-family: "Poppins", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.backdrop{
+  backdrop-filter: blur(10px);
+}
